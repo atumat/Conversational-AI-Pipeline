@@ -3,4 +3,49 @@ End to end AI system for real-time speech understanding, context-aware response 
 
 Project flow - 
 
+┌────────────────────┐
+│   User Speaks 🎤   │
+└─────────┬──────────┘
+          │
+          ▼
+┌────────────────────┐
+│ Speech-to-Text     │
+│ (Whisper)          │
+└─────────┬──────────┘
+          │
+          ▼
+┌────────────────────┐
+│ Query Processing   │
+│ Intent Extraction  │
+└─────────┬──────────┘
+          │
+          ▼
+┌────────────────────┐
+│ Semantic Retrieval │
+│ (Embeddings+FAISS) │
+└─────────┬──────────┘
+          │
+          ▼
+┌────────────────────┐
+│ Context Building   │
+│ + User Memory      │
+└─────────┬──────────┘
+          │
+          ▼
+┌────────────────────┐
+│ Response Generation│
+│ (LLM)              │
+└─────────┬──────────┘
+          │
+          ▼
+┌────────────────────┐
+│ Text-to-Speech     │
+│ (TTS Model)        │
+└─────────┬──────────┘
+          │
+          ▼
+┌────────────────────┐
+│ Voice Response 🔊  │
+└────────────────────┘
+
  
