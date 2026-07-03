@@ -3,4 +3,4 @@ End to end AI system for real-time speech understanding, context-aware response 
 Project flow - 
 
 
-<img width="209" height="702" alt="image" src="https://github.com/user-attachments/assets/c1feb13e-bd31-45dc-9179-ddde66fbd53c" />
+<img width="209" height="702" alt="image" src="project workflow.png" />
