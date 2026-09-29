@@ -11,10 +11,3 @@ System Architecture -
 
 
 
-
-
-
-
-
-
-
